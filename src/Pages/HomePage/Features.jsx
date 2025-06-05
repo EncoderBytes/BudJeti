@@ -10,33 +10,29 @@ const Features = () => {
     ];
     return (
         <>
-            <section className="w-full  flex items-center justify-center px-6 mt-20">
+            <section className="w-full  flex items-center justify-center px-6 mt-44">
 
-                <div className="w-8/12 mt-10 border  flex flex-col md:flex-row items-center justify-between gap-8">
+                <div className="w-8/12 mt-10 flex flex-col md:flex-row items-center justify-between gap-8">
                     {/* Left Text Section */}
-                 <div className="flex-1 text-center md:text-left relative">
-  {/* Rectangle Background Image */}
-  <img
-    src="/Rectangle.png" // make sure this is in your public folder
-    alt="Rectangle Background"
-    className="w-full md:w-auto h-44 "
-  />
-
-  {/* Phone Image Positioned Over Rectangle */}
-  <img
-    src="/iphoneFeature.png" // also in public folder
-    alt="Phone"
-    className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[200px] md:w-[250px]"
-  />
-</div>
+                    <div className="flex-1 text-center md:text-left relative">
+<img src="../../../public/1circle.png" className="absolute w-60 top-[-120px] right-64" alt="" />
+<img src="../../../public/2circle.png" className="absolute w-60 top-[-80px] right-68" alt="" />
+<img src="../../../public/3circle.png" className="absolute w-60 top-[-60px] right-72" alt="" />
+                        <div className=" w-72 h-44 bg-[#1929D6] "></div>
+                        <img
+                            src="/iphoneFeature.png"
+                            alt="Phone"
+                            className="absolute top-1/2 left-[180px] transform -translate-x-1/2 -translate-y-1/2 w-[350px] "
+                        />
+                    </div>
 
 
                     {/* Right Image Section */}
                     <div className="flex-1 ">
-                       <div className="">
-                         <h3 className="text-[#1929D6] text-xl">FEATURES</h3>
-                        <h2 className="text-2xl font-bold ">Designed For Business.</h2>
-                       </div>
+                        <div className="">
+                            <h3 className="text-[#1929D6] text-xl">FEATURES</h3>
+                            <h2 className="text-2xl font-bold ">Designed For Business.</h2>
+                        </div>
 
                         <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4 mt-2">
                             {features.map((feature, index) => (
@@ -46,9 +42,12 @@ const Features = () => {
                                 </div>
                             ))}
                         </div>
-
+                        <div className="relative">
+<div className="absolute right-16 top-24">
+    <img src="./Star.png" alt="" />
+</div>
+</div>
                     </div>
-
                 </div>
             </section>
         </>

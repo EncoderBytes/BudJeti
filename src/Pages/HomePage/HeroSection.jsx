@@ -9,7 +9,7 @@ const HeroSection = () => {
 
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <section className="w-full  flex items-center justify-center px-6 relative">
                 <div className="absolute right-40 top-0">
                     <img className="h-96" src="/arrow.png" alt="" />
