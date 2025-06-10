@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -29,18 +30,31 @@ const Navbar = () => {
         hideNavbar ? "-translate-y-full" : "translate-y-0"
       } bg-transparent`}
     >
-      <div className="w-8/12 mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-9/12 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <img src="/logo.png" alt="Company Logo" className="h-[114px] w-[114px]" />
           </div>
-
-          <div className="hidden md:flex items-center space-x-6">
-            <a href="#home" className="text-gray-800 hover:text-[#1929D6] font-medium">Home</a>
-            <a href="#wallet" className="text-gray-800 hover:text-[#1929D6] font-medium">Business Wallet</a>
-            <a href="#wallet" className="text-gray-800 hover:text-[#1929D6] font-medium">Support</a>
-            <button className="w-12 h-7 bg-[#1929D6] text-white">Login</button>
-          </div>
+<div className="hidden md:flex items-center space-x-6">
+<NavLink to="/" className={({ isActive }) =>
+    isActive ? 'text-[#1929D6] font-bold' : 'text-gray-800 hover:text-[#1929D6]'
+}>
+  Home
+</NavLink>
+  <NavLink to="/business-wallet" className={({ isActive }) =>
+    isActive ? 'text-[#1929D6] font-bold' : 'text-gray-800 hover:text-[#1929D6]'
+}>
+    Business Wallet
+  </NavLink>
+  <NavLink  to="/support" className={({ isActive }) =>
+    isActive ? 'text-[#1929D6] font-bold' : 'text-gray-800 hover:text-[#1929D6]'
+}>
+    Support
+  </NavLink>
+  <button className="w-12 h-7 bg-[#1929D6] text-white">
+    Login
+  </button>
+</div>
 
           <div className="md:hidden flex items-center">
             <button onClick={() => setMenuOpen(!menuOpen)} className="text-2xl text-gray-800">

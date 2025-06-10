@@ -9,7 +9,6 @@ const HeroSection = () => {
 
     return (
         <>
-            {/* <Navbar /> */}
             <section className="w-full  flex items-center justify-center px-6 relative">
                 <div className="absolute right-40 top-0">
                     <img className="h-96" src="/arrow.png" alt="" />
@@ -17,11 +16,10 @@ const HeroSection = () => {
                 <div className="absolute right-40 top-32">
                     <img className="" src="/Star.png" alt="" />
                 </div>
-                <div className="w-8/12 mt-10  flex flex-col md:flex-row items-center justify-between gap-8">
-                    {/* Left Text Section */}
+                <div className="w-9/12 flex flex-col md:flex-row items-center justify-between gap-8">
                     <div className="flex-1 text-center md:text-left ">
                         <div className="">
-                            <h1 className="text-[64px] md:text-5xl font-bold text-gray-800 mt-28">
+                            <h1 className="text-[64px] md:text-5xl font-bold text-gray-800 mt-6">
                                 Empower Your Business With <span className="text-[#1929D6] whitespace-nowrap">Seamless Payments</span>
                             </h1>
                             <p className="text-[#71717A] text-[18px] ">
@@ -31,7 +29,7 @@ const HeroSection = () => {
 
                         <div className="mt-14">
                             <button className=" bg-[#1929D6] text-white px-6 py-3 rounded-lg cursor-pointer transition">
-                                Get Started Today
+                                Get Started Today <span className="p-3 text-xl"> → </span>
                             </button>
                         </div>
 
@@ -57,7 +55,6 @@ const HeroSection = () => {
                         </div>
                     </div>
 
-                    {/* Right Image Section */}
                     <div className="flex-1 ">
                         <img
                             src="/heroSectionPhone.png"

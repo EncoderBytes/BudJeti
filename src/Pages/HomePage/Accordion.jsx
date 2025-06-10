@@ -34,7 +34,7 @@ const Accordion = () => {
 
   return (
    <section className="w-full px-6 py-20 bg-gray-50 flex flex-col items-center">
-  <div className="w-8/12 mx-auto text-center">
+  <div className="w-9/12 mx-auto text-center">
     <h2 className="text-3xl font-bold mb-8">Frequently Asked <br /> Questions</h2>
 
     <div className="space-y-4 text-left">

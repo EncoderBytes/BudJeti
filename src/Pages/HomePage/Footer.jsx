@@ -16,7 +16,7 @@ const quickLinks = [
 ];
   return (
     <footer className="bg-[#0A18F2] text-white py-10 px-6">
-      <div className="w-8/12 mx-auto flex flex-col md:flex-row justify-between gap-10">
+      <div className="w-9/12 mx-auto flex flex-col md:flex-row justify-between gap-10">
         {/* Left Section */}
         <div className="flex-1">
           <h2 className="text-2xl font-bold">BudJeti</h2>
@@ -66,6 +66,7 @@ const quickLinks = [
       <div className="mt-10 border-t border-white/30 pt-4 text-center text-sm">
         Copyright ©2025 BudJeti. All rights reserved
       </div>
+      
     </footer>
   );
 };

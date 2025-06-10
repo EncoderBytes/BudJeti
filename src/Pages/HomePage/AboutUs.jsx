@@ -1,7 +1,7 @@
 const AboutUs = () => {
   return (
     <section className="w-full text-white px-6 flex items-center justify-center bg-[#18181B]">
-                <div className="w-8/12 mt-10 flex flex-col md:flex-row items-center justify-between gap-8">
+                <div className="w-9/12 mt-10 flex flex-col md:flex-row items-center justify-between gap-8">
   <div className="absolute left-10 mt-12 ">
             <img className="h-44" src="/aboutUsL.png" alt="" />
           </div>

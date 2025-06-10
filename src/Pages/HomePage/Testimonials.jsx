@@ -54,7 +54,7 @@ const Testimonials = () => {
         </div> */}
 
                 {/* Testimonial Text */}
-                <div className="relative w-8/12 mx-auto  text-gray-600 text-base px-4 leading-relaxed">
+                <div className="relative w-9/12 mx-auto  text-gray-600 text-base px-4 leading-relaxed">
                     <div className="flex justify-between items-center">
                         <div className="flex gap-5">
                             <img className="w-8 h-5 mt-2.5" src="./leftArrow.png" alt="" />

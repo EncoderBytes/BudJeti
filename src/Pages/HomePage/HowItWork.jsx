@@ -11,7 +11,7 @@ const HowItWork = () => {
     return (
         <>
             <section className="w-full flex items-center justify-center px-6 mt-44">
-                <div className="w-8/12 mt-40 flex flex-col md:flex-row items-center justify-between gap-8">
+                <div className="w-9/12 mt-40 flex flex-col md:flex-row items-center justify-between gap-8">
 
                   
 

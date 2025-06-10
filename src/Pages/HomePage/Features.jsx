@@ -12,7 +12,7 @@ const Features = () => {
         <>
             <section className="w-full  flex items-center justify-center px-6 mt-44">
 
-                <div className="w-8/12 mt-10 flex flex-col md:flex-row items-center justify-between gap-8">
+                <div className="w-9/12 mt-10 flex flex-col md:flex-row items-center justify-between gap-8">
                     {/* Left Text Section */}
                     <div className="flex-1 text-center md:text-left relative">
 <img src="../../../public/1circle.png" className="absolute w-60 top-[-120px] right-64" alt="" />
