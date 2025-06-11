@@ -24,13 +24,13 @@ const SecondSection = () => {
   ];
 
   return (
-    <section className="py-20 px-6 bg-white">
+    <section className="py-20 px-6 bg-white ">
       {/* Heading */}
-      <div className="mx-auto text-center mb-12">
+      <div className="w-9/12 mx-auto text-center mb-12">
         <h2 className="text-[48px] font-bold text-gray-900">
           Built For Modern Businesses
         </h2>
-        <p className="text-[18px] text-[#71717A]">
+        <p className="w-[53%] mx-auto text-[18px] text-[#71717A]">
          Everything you need to manage business payments, expenses, and financial operations in one platform 
         </p>
       </div>

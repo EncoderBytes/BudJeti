@@ -21,7 +21,7 @@ const HowItWork = () => {
                             <h2 className="text-[48px] font-bold">How It Works?</h2>
                         </div>
 
-                      <div className="flex flex-col gap-6 ">
+                      <div className="flex flex-col gap-8 mt-5">
   {features.map((feature, index) => (
     <div key={index} className="flex items-center space-x-3">
       <img src={feature.icon} alt="Feature Icon" className="w-6 h-6" />
@@ -33,7 +33,7 @@ const HowItWork = () => {
                     </div>
 
                       <div className="flex w-[700px] relative text-center ml-44  mb-36">
-                            <img className="absolute right-8 top-[-160px] h-96" src="./ellipse.png" alt="" />
+                            <img className="absolute -right-4 top-[-172px] h-96" src="./ellipse.png" alt="" />
                         <div className="w-[420px] h-[400px] ml-auto bg-[#1929D6]"></div>
                       <div className="">
                           <img
@@ -42,8 +42,8 @@ const HowItWork = () => {
                             className="absolute w-[720px] h-[700px] top-54 left-[550px]  transform -translate-x-1/2 -translate-y-1/2 "
                         />
                       </div>
-                      <div className="absolute bottom-[-100px] left-72">
-                        <img className="" src="./Star.png" alt="" />
+                      <div className="absolute bottom-[-70px] left-72">
+                        <img className="w-12" src="./Star.png" alt="" />
                       </div>
                       <div className="absolute -top-[100px] -left-96">
                         <img className="w-10" src="./Star.png" alt="" />

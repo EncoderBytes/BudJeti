@@ -3,22 +3,22 @@ import Navbar from "../../Components/Navbar/Navbar"
 const HeroSection = () => {
     return (
         <>
-            <section className="w-full flex items-center justify-center px-6 relative">
-                <div className="absolute right-40 top-0">
-                    <img className="h-96" src="/arrow.png" alt="" />
+            <section className="w-full flex items-center justify-center px-6 relative ">
+                <div className="absolute right-72 top-0">
+                    <img className="h-92" src="/arrow.png" alt="" />
                 </div>
-                <div className="absolute right-40 top-32">
-                    <img className="" src="/Star.png" alt="" />
+                <div className="absolute right-64 top-32">
+                    <img className="w-10" src="/Star.png" alt="" />
                 </div>
-                <div className="w-9/12 flex flex-col md:flex-row items-center justify-between pb-36">
+                <div className="w-9/12 mt-10 flex flex-col md:flex-row items-center justify-between pb-36">
                     <div className="flex-1  text-center md:text-left mt-36">
                         <div className="flex flex-col ">
                             <div className="">
                                 <h1 className="text-7xl w-[600px]  font-bold text-gray-800 ">
                                     Take Control of  Your Business  Finances
                                 </h1>
-                                <p className="text-[#71717A] text-[18px] ">
-                                    take full control of their finances
+                                <p className="text-[#71717A] text-[18px] pt-2">
+                                    Take full control of their finances
                                 </p>
                             </div>
 
@@ -32,7 +32,7 @@ const HeroSection = () => {
 
                     </div>
 
-                    <div className="flex mt-48 -ml-12 gap-2 ">
+                    <div className="flex mt-48 -ml-12 gap-6 ">
                         <img
                             src="/walletGroup.png"
                             alt="Hero"

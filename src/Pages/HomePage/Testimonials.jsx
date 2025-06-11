@@ -2,7 +2,6 @@ const Testimonials = () => {
     return (
         <section className="w-full py-20 px-6 flex items-center justify-center">
             <div className="text-center max-w-3xl">
-                {/* Title */}
                 <h4 className="text-[#6366F1] uppercase tracking-widest text-sm font-semibold mb-2">
                     Testimonials
                 </h4>
@@ -10,7 +9,6 @@ const Testimonials = () => {
                     What Our Users Say <br /> About Us?
                 </h2>
 
-                {/* User Image */}
                 <div className="flex flex-row  justify-between">
                    
                     <div className="flex flex-col items-center ">
@@ -46,14 +44,7 @@ const Testimonials = () => {
 
 
 
-                {/* Stars */}
-                {/* <div className="flex justify-center gap-1 mb-6">
-          {[...Array(5)].map((_, i) => (
-            <img key={i} src="" alt="Star" className="w-5 h-5" />
-          ))}
-        </div> */}
-
-                {/* Testimonial Text */}
+         
                 <div className="relative w-9/12 mx-auto  text-gray-600 text-base px-4 leading-relaxed">
                     <div className="flex justify-between items-center">
                         <div className="flex gap-5">
@@ -64,9 +55,9 @@ const Testimonials = () => {
                         <img className="w-8 h-5 mt-2.5" src="./rightArrow.png" alt="" />
                     </div>
 
-                    <p className="text-black w-[70%] mx-auto text-center">           Lorem ipsum dolor sit amet consectetur. Et id habitant semper arcu turpis ornare tellus tortor eleifend. Platea sit at id massa sit at non bibendum viverra. Enim dui neque senectus consequat
+                    <p className="text-black w-[75%] mx-auto text-center ">Lorem ipsum dolor sit amet consectetur. Et id habitant semper arcu turpis ornare tellus tortor eleifend. Platea sit at id massa sit at non bibendum viverra. Enim dui neque senectus consequat
                     </p>
-                    <div className="flex justify-end mt-[-40px]"><img className="w-10" src="./VectorB.png" alt="" /></div>
+                    <div className="flex justify-end mt-[-40px]  mr-8"><img className="w-10" src="./VectorB.png" alt="" /></div>
                 </div>
 
                 <div className="flex justify-between">

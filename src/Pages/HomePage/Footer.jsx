@@ -20,16 +20,21 @@ const quickLinks = [
         {/* Left Section */}
         <div className="flex-1">
           <h2 className="text-2xl font-bold">BudJeti</h2>
-          <p className="mt-2 text-sm">
+          <p className="mt-2 text-sm w-72 ">
             Company name, 51 Bracken Road, Sandyford  D18 Dublin Ireland
           </p>
-       <div className="flex gap-4 mt-4 text-xl">
-      {socialLinks.map((item, index) => (
-        <a href={item.url} key={index}>
-          <i className={`fab ${item.icon}`}></i>
-        </a>
-      ))}
-    </div>
+   <div className="flex gap-6  mt-4 text-xl">
+  {socialLinks.map((item, index) => (
+    <a
+      href={item.url}
+      key={index}
+      className={`pr-4 ${index !== socialLinks.length - 1 ? 'border-r border-gray-400' : ''}`}
+    >
+      <i className={`fab ${item.icon}`}></i>
+    </a>
+  ))}
+</div>
+
 
         </div>
 
@@ -63,7 +68,7 @@ const quickLinks = [
         </div>
       </div>
 
-      <div className="mt-10 border-t border-white/30 pt-4 text-center text-sm">
+      <div className="mt-10 border-t-4 w-9/12 mx-auto border-white/30 pt-4 text-center text-sm">
         Copyright ©2025 BudJeti. All rights reserved
       </div>
       
