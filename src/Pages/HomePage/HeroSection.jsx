@@ -16,13 +16,16 @@ const HeroSection = () => {
                 <div className="absolute right-40 top-32">
                     <img className="" src="/Star.png" alt="" />
                 </div>
+                 <div className="absolute right-[520px] bottom-32">
+                    <img className="w-12" src="/Star.png" alt="" />
+                </div>
                 <div className="w-9/12 flex flex-col md:flex-row items-center justify-between gap-8">
                     <div className="flex-1 text-center md:text-left ">
                         <div className="">
                             <h1 className="text-[64px] md:text-5xl font-bold text-gray-800 mt-6">
-                                Empower Your Business With <span className="text-[#1929D6] whitespace-nowrap">Seamless Payments</span>
+                                Empower Your <br /> Business With <span className="text-[#1929D6] whitespace-nowrap">Seamless Payments</span>
                             </h1>
-                            <p className="text-[#71717A] text-[18px] ">
+                            <p className="text-[#71717A] text-[18px] w-[460px]">
                                 Send, receive, and manage payments effortlessly — with a secure digital wallet designed for business.
                             </p>
                         </div>
@@ -36,7 +39,7 @@ const HeroSection = () => {
 
                         <div className="w-[413px] flex gap-4 mt-7">
                             <div className="w-[95px] h-[80px]  text-white  rounded-lg bg-black flex items-center justify-center">
-                                1.0m
+                               <span className="text-xl font-semibold">1.0m</span> 
                             </div>
                             <div className="w-[294px] mt-2">
                                 <div className="flex gap-2">
@@ -59,7 +62,7 @@ const HeroSection = () => {
                         <img
                             src="/heroSectionPhone.png"
                             alt="Hero"
-                            className="w-[639px]  mt-[102px] ml-[25px]"
+                            className="w-[439px]  mt-[110px] ml-[250px]"
                         />
                     </div>
 

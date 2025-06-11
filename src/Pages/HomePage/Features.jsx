@@ -14,39 +14,40 @@ const Features = () => {
 
                 <div className="w-9/12 mt-10 flex flex-col md:flex-row items-center justify-between gap-8">
                     {/* Left Text Section */}
-                    <div className="flex-1 text-center md:text-left relative">
-<img src="../../../public/1circle.png" className="absolute w-60 top-[-120px] right-64" alt="" />
-<img src="../../../public/2circle.png" className="absolute w-60 top-[-80px] right-68" alt="" />
-<img src="../../../public/3circle.png" className="absolute w-60 top-[-60px] right-72" alt="" />
-                        <div className=" w-72 h-44 bg-[#1929D6] "></div>
+                    <div className="flex-1 text-center md:text-left relative ">
+                        <img src="/public/1circle.png" className="absolute w-[415px] -top-24 right-86" alt="" />
+                        <img src="/public/2circle.png" className="absolute w-[415px] -top-16 right-86" alt="" />
+                        <img src="/public/3circle.png" className="absolute w-[415px] -top-8 right-86" alt="" />
+                        <div className=" w-[515px] h-[300px] bg-[#1929D6] "></div>
                         <img
                             src="/iphoneFeature.png"
                             alt="Phone"
-                            className="absolute top-1/2 left-[180px] transform -translate-x-1/2 -translate-y-1/2 w-[350px] "
+                            className="absolute top-44 left-[290px] transform -translate-x-1/2 -translate-y-1/2 w-[420px] h-[691px] "
                         />
                     </div>
 
 
                     {/* Right Image Section */}
-                    <div className="flex-1 ">
+                    <div className="flex-1 -mt-28 ml-44">
                         <div className="">
-                            <h3 className="text-[#1929D6] text-xl">FEATURES</h3>
-                            <h2 className="text-2xl font-bold ">Designed For Business.</h2>
+                            <h3 className="text-[#1929D6] text-[18px]">FEATURES</h3>
+                            <h2 className="text-[48px] font-bold ">Designed For Business.</h2>
                         </div>
 
-                        <div className="flex flex-col sm:flex-row sm:flex-wrap gap-4 mt-2">
+                        <div className="flex flex-col gap-10 mt-2">
                             {features.map((feature, index) => (
-                                <div key={index} className="flex items-center space-x-3">
+                                <div key={index} className="flex items-center space-x-3 ">
                                     <img src={feature.icon} alt="Feature Icon" className="w-6 h-6" />
                                     <p className="text-gray-800">{feature.text}</p>
                                 </div>
                             ))}
                         </div>
+
                         <div className="relative">
-<div className="absolute right-16 top-24">
-    <img src="./Star.png" alt="" />
-</div>
-</div>
+                            <div className="absolute right-44 top-16">
+                                <img src="./Star.png" alt="" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

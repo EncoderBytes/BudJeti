@@ -37,7 +37,7 @@ const plans = [
 
 const ThirdSection = () => {
   return (
-    <section className="py-20 px-6 bg-gray-50">
+    <section className="py-20 px-6 bg-[#F6FAFF]">
       {/* Heading */}
       <div className="mx-auto text-center mb-12">
         <h2 className="text-[48px] font-bold text-gray-900">
@@ -47,9 +47,12 @@ const ThirdSection = () => {
           Simple, straightforward pricing that grows with your business
         </p>
       </div>
-
-      <div className="flex   w-full mx-auto justify-center gap-8 mt-16">
-        {plans.map((plan) => (
+<div
+  className="flex w-full mx-auto justify-center gap-8 mt-16 bg-no-repeat "
+  style={{
+    backgroundImage: "url('/Vector.png')",
+  }}
+>   {plans.map((plan) => (
           <div
             key={plan.id}
             className={`${
@@ -147,6 +150,7 @@ const ThirdSection = () => {
           </div>
         ))}
       </div>
+
     </section>
   );
 };

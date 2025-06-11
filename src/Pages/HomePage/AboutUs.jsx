@@ -12,7 +12,7 @@ const AboutUs = () => {
         <div className="flex-1 text-center md:text-left ">
          <div className="flex justify-between">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Us</h2>
-             <img className="w-8 h-8" src="/aboutStar.png" alt="" />
+             <img className="ml-[700px] w-8 h-8" src="/aboutStar.png" alt="" />
          </div>
           <p className="text-white mb-6 text-sm w-92">
           We aim to revolutionize the way businesses collect and manage their finances by providing an all-in-one digital wallet and payment platform built for speed, transparency, and control. Our mission is to eliminate the friction of traditional banking processes, empowering businesses to move money instantly, track payments in real time, and streamline financial operations with ease.
