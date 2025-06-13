@@ -1,4 +1,4 @@
-const AboutUs = () => {
+const About = () => {
   return (
     <section className="relative w-full text-white px-6 flex items-center justify-center bg-[#18181B]">
       <div className="w-full lg:w-9/12 pt-4 pb-4 lg:pt-10 lg:pb-24 flex flex-col md:flex-row items-center justify-between gap-8 mb-[200px] lg:mb-0">
@@ -25,8 +25,9 @@ const AboutUs = () => {
             We aim to revolutionize the way businesses collect and manage their finances by providing an all-in-one digital wallet and payment platform built for speed, transparency, and control. Our mission is to eliminate the friction of traditional banking processes, empowering businesses to move money instantly, track payments in real time, and streamline financial operations with ease.
           </p>
           <img className="hidden lg:block absolute w-8 left-[640px] bottom-36" src="/aboutStar.png" alt="" />
-         <button className="bg-white text-black px-6 py-3 rounded-lg z-10 relative flex items-center gap-2 mx-auto md:mx-0">
+         <button className="bg-white text-black px-6 py-3 rounded-lg z-10 relative flex items-center gap-3 mx-auto md:mx-0">
   Download App
+  <img src="/android.png" alt="Apple Icon" className="w-5 h-5" />
   <img src="/apple.png" alt="Apple Icon" className="w-5 h-5" />
 </button>
 
@@ -55,4 +56,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default About;
