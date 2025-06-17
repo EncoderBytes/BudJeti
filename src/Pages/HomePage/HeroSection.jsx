@@ -19,13 +19,13 @@ const HeroSection = () => {
         <div className="w-full lg:w-9/12 mt-24 lg:mt-10 flex flex-col md:flex-row items-center justify-between gap-8 z-10">
           
           <div className="flex-1 text-center md:text-left">
-            <h1 className="text-4xl md:text-5xl lg:text-[64px] font-bold text-gray-800 leading-tight mt-6">
+            <h1 className="text-4xl md:text-4xl lg:text-[64px] font-bold text-gray-800 leading-tight mt-6">
               Empower Your <br />
               Business With{" "}
               <span className="text-[#1929D6] whitespace-nowrap">Seamless Payments</span>
             </h1>
 
-            <p className="text-[#71717A] text-base md:text-lg mt-4 max-w-[420px] mx-auto md:mx-0">
+            <p className="text-[#71717A] text-base  mt-4 max-w-[420px] mx-auto md:mx-0">
               Send, receive, and manage payments effortlessly — with a secure digital wallet designed for business.
             </p>
 

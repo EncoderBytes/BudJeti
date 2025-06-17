@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
       <div className="flex-shrink-0">
   <Link to="/">
-    <img src="/logo.png" alt="Company Logo" className="h-[114px] w-[114px]" />
+    <img src="/logo.png" alt="Company Logo" className="md:h-22 md:w-22 h-[114px] w-[114px]" />
   </Link>
 </div>
 
@@ -62,7 +62,7 @@ const Navbar = () => {
             >
               Support
             </NavLink>
-            <button className="w-[152px] h-[50px] ms-4 bg-[#1929D6] text-white">Login</button>
+            <button className="md:w-25 md:h-12 w-[152px] h-[50px] ms-4 bg-[#1929D6] text-white">Login</button>
           </div>
 
           <div className="md:hidden flex items-center">
