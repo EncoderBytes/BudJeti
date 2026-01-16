@@ -1,6 +1,7 @@
 import Navbar from "../../Components/Navbar/Navbar"
 import About from "./About"
 import Accordion from "./Accordion"
+import ContactForm from "./Contactform"
 import Features from "./Features"
 import Footer from "./Footer"
 import HeroSection from "./HeroSection"
@@ -21,8 +22,9 @@ const Homepage = () => {
         <HowItWork />
       </div>
       <Testimonials />
+      {/* <ContactForm/> */}
       <About />
-      <Accordion />
+      {/* <Accordion /> */}
       <Footer />
     </>
   )

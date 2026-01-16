@@ -1,4 +1,5 @@
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const socialLinks = [
@@ -8,12 +9,15 @@ const Footer = () => {
     { icon: 'fa-youtube', url: '#' },
   ];
 
-  const quickLinks = [
-    { label: 'Home', url: '#' },
-    { label: 'About Us', url: '#' },
-    { label: 'Bookings', url: '#' },
-    { label: 'Blog', url: '#' },
-  ];
+const quickLinks = [
+  { label: 'Home', url: '/' },
+  { label: 'About Us', url: '/about-us' },
+  { label: 'Business Wallet', url: '/business-wallet' },
+  { label: 'Support', url: '/support' },
+  { label: 'Privacy Policy', url: '/legal-information#privacy-policy' },
+  { label: 'Terms of Service', url: '/legal-information#terms-of-service' },
+];
+
 
   return (
     <footer className="bg-[#0A18F2] text-white py-10 px-6">
@@ -44,7 +48,7 @@ const Footer = () => {
           <ul className="space-y-2 text-sm">
             {quickLinks.map((link, index) => (
               <li key={index}>
-                <a href={link.url} className="hover:underline">{link.label}</a>
+                <Link to={link.url} className="hover:underline">{link.label}</Link>
               </li>
             ))}
           </ul>
