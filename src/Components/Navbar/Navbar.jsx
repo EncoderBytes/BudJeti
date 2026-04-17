@@ -53,7 +53,7 @@ const Navbar = () => {
                 isActive ? 'text-[#1929D6] font-bold' : 'text-gray-800 hover:text-[#1929D6]'
               }
             >
-              Homessss
+              Home
             </NavLink>
 
             <NavLink
